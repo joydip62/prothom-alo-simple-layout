@@ -1,0 +1,198 @@
+@import url('all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header part start*/
+header{
+    overflow: hidden;
+    font-size: 30px;
+    padding: 20px 60px;
+}
+header div{
+    float: left;
+}
+header div i{
+    margin-right: 40px;
+}
+
+header .left{
+    width: 20%;
+}
+header .center{
+    width: 60%;
+    position: relative;
+    text-align: center;
+
+}
+header .center figure{
+    width: 40%;
+    display: inline-block;
+}
+
+header .center figure img{
+    text-align: center;
+}
+
+header .right{
+    width: 20%;
+    text-align: right;
+}
+header .right button{
+    font-size: 20px;
+    border: 1px solid #cbcbcb;
+    background-color: white;
+    color: blueviolet;
+    padding: 8px 25px;
+    font-weight: bold;
+}
+header .right button:hover{
+    background-color: rgba(182, 182, 182, 0.42);
+    cursor: pointer;
+}
+/*header part end*/
+
+
+/*=============================================*/
+
+/*nav bar start*/
+nav{
+    overflow: hidden;
+    border-top: 1px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 20px 0;
+}
+nav ul{
+    width: 100%;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+/*nav bar end*/
+/*=================================================*/
+
+
+.content{
+    display: flex;
+    margin-top: 40px;
+    padding: 20px 60px;
+}
+/*main content start*/
+
+.main-content{
+    width: 80%;
+    padding: 0 20px 0 0;
+}
+.main-content h2{
+    font-size: 30px;
+}
+.main-content p{
+    margin: 20px 0;
+}
+
+/*main content three part section start*/
+.main-content .three-part{
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
+}
+.main-content .three-part .left{
+    display: flex;
+    width: 66%;
+    height: 213px;
+}
+.main-content .three-part .left .text{
+    width: 50%;
+    height: 213px;
+}
+.main-content .three-part .right{
+    width: 34%;
+    border-left: 1px solid grey;
+    height: 213px;
+    padding: 0 0 0 35px;
+}
+
+
+/*main content three part section end*/
+
+/*===============================================================================================*/
+/*main content four part section start*/
+
+.main-content .four-part{
+    display: flex;
+    /*padding: 20px 0;*/
+    padding-top: 25px;
+}
+
+.main-content .four-part .left{
+    display: flex;
+    width: 33.33%;
+    height: 213px;
+}
+.main-content .four-part .left .text{
+    height: 213px;
+}
+.main-content .four-part h2{
+    font-size: 30px;
+}
+.main-content .four-part p{
+    margin: 20px 0;
+}
+
+.main-content .four-part .mid{
+    width: 33.33%;
+    border-left: 1px solid grey;
+    height: 213px;
+}
+.main-content .four-part .mid .text{
+    padding: 0 20px;
+}
+.main-content .four-part .right{
+    width: 33.33%;
+    border-left: 1px solid grey;
+    padding-left: 46px;
+}
+.main-content .four-part .right .text{
+    margin-left: -10px;
+}
+/*main content four part section start*/
+
+/*===================================================================================*/
+
+
+/*left content starts*/
+.left-content{
+    width: 20%;
+    border-left: 1px solid grey;
+    padding: 0 20px;
+}
+
+.left-content .first-right{
+    text-align: right;
+    height: 213px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
+}
+
+.left-content .right .text{
+    padding: 0 20px;
+}
+
+.left-content .second-right{
+    padding-top: 25px;
+}
+/*left content ends*/
+
+
+
+
+/*main content end*/
