@@ -190,6 +190,10 @@ nav ul li a{
 .left-content .second-right{
     padding-top: 25px;
 }
+
+.left-content .second-right .text p{
+    margin: 20px 0;
+}
 /*left content ends*/
 
 
